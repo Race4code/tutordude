@@ -1,0 +1,474 @@
+/* Mobile  */
+@media only screen and (max-width:480px) and (min-width:320px){
+    .referral{
+        width: 120%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding:20px;
+    }
+    .btn{
+        display: none;
+    }
+    .small{
+        background-color: #800080;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        border: none;
+        color:white;
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        font-family:"poppins";
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    .earnings{
+        width: 100%;
+        height: auto;
+        min-height: 188px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    .referralDetails{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-family:"poppins";
+    }
+    .name{
+        font-size: 14px;
+        color: #800080;
+    }
+    .price{
+        font-size: 32px;
+        color: black;
+        font-weight: 600;
+    }
+    .compo{
+        display: flex;
+        flex-direction: column;
+        margin:20px 
+    }
+    .btn{
+        background-color: #800080;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        border: none;
+        color:white;
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        font-family:"poppins";
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    
+    .referralCode{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .referCode{
+        font-size: 36px;
+        color:#800080;
+        font-weight: 600;
+        font-family:"poppins";
+    }
+    .userReferralCode{
+        margin-top: 9px;
+        border: 2px solid;
+        border-image: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+        border-image-slice: 1;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1.5em;
+        padding: 10px 0px;
+        color:#800080;
+        font-family:"poppins";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .howItWorks{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin:30px;
+    }
+    .howItWorks>p{
+        font-size: 24px;
+        color:#800080;
+        font-family: 'poppins';
+        font-weight:bolder;
+    }
+    .faq{
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+/* Tablets and Ipads */
+@media only screen and (max-width:554px) and (min-width:481px){
+    .btn{
+        display: none;
+    }
+    .small{
+        background-color: #800080;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        border: none;
+        color:white;
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        font-family:"poppins";
+        cursor: pointer;
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width:554px) and (max-width:768px){
+    .small{
+        display: none;
+    }
+}
+@media only screen and (max-width:768px)and (min-width:480px){
+    .referral{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding:30px;
+    }
+    .earnings{
+        width: 100%;
+        height: auto;
+        min-height: 188px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    .referralDetails{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-family:"poppins";
+    }
+    .name{
+        font-size: 14px;
+        color: #800080;
+    }
+    .price{
+        font-size: 32px;
+        color: black;
+        font-weight: 600;
+    }
+    .compo{
+        display: flex;
+        flex-direction: column;
+        margin:20px 
+    }
+    .btn{
+        background-color: #800080;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        border: none;
+        color:white;
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        font-family:"poppins";
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    
+    .referralCode{
+        width: 358px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .referCode{
+        font-size: 36px;
+        color:#800080;
+        font-weight: 600;
+        font-family:"poppins";
+    }
+    .userReferralCode{
+        margin-top: 9px;
+        border: 2px solid;
+        border-image: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+        border-image-slice: 1;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1.5em;
+        padding: 10px 0px;
+        color:#800080;
+        font-family:"poppins";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .howItWorks{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin:30px;
+    }
+    .howItWorks>p{
+        font-size: 24px;
+        color:#800080;
+        font-family: 'poppins';
+        font-weight:bolder;
+    }
+    .faq{
+        width: 90%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+/* Laptops and desktops */
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .referral{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        padding: 30px 10px 30px 80px;
+    }
+    .btn{
+        display: none;
+    }
+    .earnings{
+        width: 50%;
+        height: auto;
+        min-height: 188px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    .referralDetails{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        font-family:"poppins";
+    }
+    .name{
+        font-size: 14px;
+        color: #800080;
+    }
+    .price{
+        font-size: 32px;
+        color: black;
+        font-weight: 600;
+    }
+    .compo{
+        display: flex;
+        flex-direction: column;
+        margin:20px 
+    }
+    .small{
+        background-color: #800080;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        border: none;
+        color:white;
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        font-family:"poppins";
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    .referralCode{
+        width:40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .referCode{
+        font-size: 30px;
+        color:#800080;
+        font-weight: 600;
+        font-family:"poppins";
+    }
+    .userReferralCode{
+        width:75%;
+        margin-top: 9px;
+        border: 2px solid;
+        border-image: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+        border-image-slice: 1;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 1.5em;
+        padding: 10px 0px;
+        color:#800080;
+        font-family:"poppins";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .howItWorks{  
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 400px;
+        min-width: 400px; 
+        margin-left: 80px;
+    }
+    .howItWorks>p{
+        font-size: 24px;
+        color:#800080;
+        font-family: 'poppins';
+        font-weight:bolder;
+    }
+    .faq{
+        /* background-color: #FF864C; */
+        width: 800px;
+        height: 332px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+/* Large Screens */
+@media only screen and (min-width:1025px) and (max-width:2436px){
+    .referral{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        padding:30px 242px 30px 187px;
+    }
+    .small{
+        display: none;
+    }
+    .earnings{
+        width: 486px;
+        height: auto;
+        min-height: 188px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+    .referralDetails{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-family:"poppins";
+    }
+    .name{
+        font-size: 14px;
+        color: #800080;
+    }
+    .price{
+        font-size: 32px;
+        color: black;
+        font-weight: 600;
+    }
+    .compo{
+        display: flex;
+        flex-direction: column;
+        margin:20px 
+    }
+    .btn{
+        background-color: #800080;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        border: none;
+        color:white;
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        font-family:"poppins";
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    .referralCode{
+        width: 358px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .referCode{
+        font-size: 36px;
+        color:#800080;
+        font-weight: 600;
+        font-family:"poppins";
+    }
+    .userReferralCode{
+        margin-top: 9px;
+        border: 2px solid;
+        border-image: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+        border-image-slice: 1;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1.5em;
+        padding: 10px 0px;
+        color:#800080;
+        font-family:"poppins";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .howItWorks{   
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 400px;
+        min-width: 400x; 
+        margin:30px 242px 30px 187px;
+    }
+    .howItWorks>p{
+        font-size: 24px;
+        color:#800080;
+        font-family: 'poppins';
+        font-weight:bolder;
+    }
+    .faq{
+        width: 800px;
+        height: 332px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

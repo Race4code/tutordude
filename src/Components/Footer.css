@@ -1,0 +1,40 @@
+.footer{
+    margin-left:187px;
+    color:#800080;
+    margin-top:60px ;
+    margin-bottom: 20px;
+}
+.footer>*{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'poppins';
+}
+@media only screen and (max-width:480px){
+    .footer{
+        width: 90%;
+        margin-left:30px;
+        color:#800080;
+        margin-top:60px ;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:768px) and (min-width:480px){
+    .footer{
+        width: 90%;
+        margin-left:30px;
+        color:#800080;
+        margin-top:60px ;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:768px){
+    .footer{
+        width: 90%;
+        margin-left:80px;
+        color:#800080;
+        margin-top:60px ;
+        margin-bottom: 20px;
+    }
+}

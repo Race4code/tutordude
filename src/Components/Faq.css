@@ -1,0 +1,56 @@
+.faqCard{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:30px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:65px;
+    height:65px;
+    border-radius: 50%;
+    background-color: rgba(217, 217, 217, 0.25);;
+}
+.faqContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'poppins';
+    margin-left: 20px;
+}
+.faqTitle{
+    color:black;
+    font-size: 16px;
+    font-weight:600;
+    word-wrap: break-word;
+    font-family: 'poppins';
+}
+.faqDescription{
+    color:rgba(77, 77, 77, 1);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'poppins';
+    word-wrap: break-word;
+}
+@media only screen and (max-width:768px){
+    .faqCard{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top:30px;
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:768px){
+    .faqCard{
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top:30px;
+    }
+}

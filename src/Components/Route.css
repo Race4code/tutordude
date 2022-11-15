@@ -1,0 +1,30 @@
+.route{
+    margin-top:30px;
+    margin-left:187px;
+    font-family:"poppins";
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .route{
+        width: 90%;
+        margin-top:30px;
+        margin-left:40px;
+    } 
+}
+@media only screen and (max-width:768px) and (min-width:481px){
+    .route{
+        width: 90%;
+        margin-top:30px;
+        margin-left:30px;
+    }
+}
+@media only screen and (max-width:1024px) and (min-width:769px){
+    .route{
+        width: 90%;
+        margin-top:30px;
+        margin-left:80px;
+    }
+}

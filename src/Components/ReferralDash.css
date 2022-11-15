@@ -1,0 +1,217 @@
+.container{
+    margin:30px 242px 30px 187px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.referalCodeNWallet{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'poppins';
+}
+.referrCode{
+    width:153px;
+    font-family: 'poppins';
+}
+.yourReferralCode{
+    font-size: 16px;
+    color:#800880;
+    line-height: 24px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+.referralCod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    padding: 20px;
+    border:1.5px solid rgba(223, 223, 223, 1);
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 0.75em;
+}
+.wallet{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    color:#800880;
+}
+.walletBalance{
+    font-size: 14px;
+    font-weight: 600;
+}
+.balance{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.friendsWhoEnrolled{
+    margin-top: 66px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color:#800880;
+    font-family: 'poppins';
+}
+.friendsWhoEnrolledCount{
+    color:rgba(98, 98, 98, 1);
+    font-weight: 500;
+}
+
+.friendsEnrolled{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.friendsEnrolled>*{
+    margin:10px 20px 10px 0px;
+}
+/* mobile */
+@media only screen and (max-width:480px) and (min-width:320px){
+    .container{
+        width: 100%;
+        margin:30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .goBack{
+        width: 100px;
+        margin:0px 0px 20px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color:#800880;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        font-family: 'poppins';
+    }
+    .goBack>img{
+        margin-top: 8px;
+    }
+    .referalCodeNWallet{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'poppins';
+    }
+    .friendsEnrolled{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .friendsEnrolled>*{
+        margin:20px 0px 10px 0px;
+    }
+    .friendsWhoEnrolled{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+}
+/* Tablet And Ipads*/
+@media only screen and (max-width:600px) and (min-width:481px){
+    .container{
+        margin:30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .goBack{
+        display: none;
+    }
+    .referalCodeNWallet{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'poppins';
+    }
+}
+@media only screen and (max-width:768px) and (min-width:480px){
+    .container{
+        margin:30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .goBack{
+        display: none;
+    }
+    .referalCodeNWallet{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'poppins';
+    }
+    .friendsEnrolled{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .friendsEnrolled>*{
+        margin:20px 0px 10px 0px;
+    }
+    .friendsWhoEnrolled{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+}
+/* Laptops and Desktops  */
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .container{
+        margin:30px 80px 30px 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .goBack{
+        display: none;
+    }
+    .referalCodeNWallet{
+        width: 86%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'poppins';
+    }
+    .friendsEnrolled{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .friendsEnrolled>*{
+        margin:20px 0px 10px 0px;
+    }
+    .friendsWhoEnrolled{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+}
+/* large Screens */
+@media only screen and (min-width:1025px) and (max-width:2346px){
+    .goBack{
+        display: none;
+    }
+}

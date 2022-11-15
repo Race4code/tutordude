@@ -1,0 +1,75 @@
+.referralCard{
+    /* max-width: 358px; */
+    /* width: 358px; */
+    padding: 20px 20px;
+    border-radius:20px;
+    color:rgba(255, 255, 255, 1);
+    font-family: 'poppins';
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+}
+.referralCardHeader{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.coursesEnrolled{
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 500;
+}
+.referreName{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+.courses{
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.courseBtn{
+    padding: 4px 9px;
+    margin:5px 5px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+}
+.cardFooter{
+    font-size: 16px;
+}
+.earning{
+    font-size: 24px;
+    font-weight: 600;
+}
+@media only screen and (max-width:768px){
+    .referralCard{
+        min-width: 100%;
+    }  
+}
+/* laptops and desktops */
+@media only screen and (max-width:1024px) and (min-width:769px){
+    .referralCard{
+        width: 250px;
+        height: 295px;
+        margin-right:30px;
+        padding: 20px 20px;
+        border-radius:20px;
+        color:rgba(255, 255, 255, 1);
+        font-family: 'poppins';
+        background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    } 
+}
+@media only screen and (min-width:1024px) and (max-width:2436px){
+    .referralCard{
+        max-width: 358px;
+        width: 358px;
+        padding: 20px 20px;
+        border-radius:20px;
+        color:rgba(255, 255, 255, 1);
+        font-family: 'poppins';
+        background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    }
+}
